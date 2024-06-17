@@ -15,6 +15,6 @@ To-DO:
   + 🔜 Região
   + 🔜 Flag
 + Adicionar suporte ao Karma (Rosstail)
-  + 🔜 Apodrecer baseado em quem plantou
+  + 🔜 Apodrecer baseado na reputação do player que plantou a semente
  
   
