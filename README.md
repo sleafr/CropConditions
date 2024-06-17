@@ -6,15 +6,15 @@ Baseado em jogos como *Stardew Valley* e *Harvest Moon*, adiciona mecânicas com
 
 To-DO:
 + Adicionar condições do RealisticSeasons
-  + ✅ Estações 
-  + ✅ Eventos
-  + ✅ Temperatura local
+  + ✔️ Estações 
+  + ✔️ Eventos
+  + ✔️ Temperatura local
 + Adicionar PlaceholderAPI nas configurações
-  + ▶️ Simplificar configuração
+  + 🟪 Simplificar configuração
 + Adicionar suporte ao WorldGuard
-  + Região
-  + Flag
+  + 🔜 Região
+  + 🔜 Flag
 + Adicionar suporte ao Karma (Rosstail)
-  + Apodrecer baseado em quem plantou
+  + 🔜 Apodrecer baseado em quem plantou
  
   
