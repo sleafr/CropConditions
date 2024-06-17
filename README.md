@@ -1,4 +1,4 @@
-# **CropMan**
+# **CropConditions**
 
 ## Gerenciador de crops que utiliza condições diversas de outros plugins.
 
