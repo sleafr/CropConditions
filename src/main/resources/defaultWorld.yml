@@ -1,0 +1,58 @@
+
+WHEAT:
+  # Disable the crop entirely in the world file
+  disabled: false
+
+  # Growth chance settings
+  growChance: 0.85 # It has 85% chance of growing successfully
+
+  # Minimum Block age to drop seeds
+  dropSeedMinAge: 5
+
+  # Withering settings
+  witherIfFailing: true # should mechanic be enabled at all
+  withering:
+
+    # Sets a number for chance calculation.
+    witherChance: 0.8
+    # Multiplier for withering chance during storms
+    witherStormMultiplier: 1.0
+
+    # Scale the wither chance with block age.
+    # This makes easier for the block die earlier, and harder to die as it grows older.
+    # random > ( witherChance*2 / blockAge ) * Storm Multiplier
+    downscalesWithAge: true
+
+  # Conditions for the block
+  conditions:
+    # Season condition
+    - type: rs_season
+      diesOffSeason: true
+      seasons:
+        - Spring
+        - Summer
+        - Fall
+        - Winter
+
+    # Air temperature condition
+    - type: rs_airtemp
+      airtemp:
+        min: 15
+        max: 30
+
+    # Special event condition
+    - type: rs_event
+      eventDisplay: "&6Spooky October"
+
+    # Climate condition for hot biomes
+    - type: CLIMATE
+      climate:
+        - minTemp: 0.9
+        - maxTemp: 2.0
+        - minHumidity: 0
+        - maxHumidity: 10
+
+    # World name condition
+    - type: Placeholder
+      placeholder: world
+      value: "world"

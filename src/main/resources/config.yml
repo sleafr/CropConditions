@@ -1,0 +1,6 @@
+# Config for CropMan
+
+ignored-worlds:
+  - world_nether
+  - world_end
+

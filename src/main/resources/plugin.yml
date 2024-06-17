@@ -1,0 +1,4 @@
+name: CropMan
+version: '${project.version}'
+main: me.sleafr.cropman.CropMan
+api-version: '1.20'
