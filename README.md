@@ -17,4 +17,4 @@ Baseado em jogos como *Stardew Valley* e *Harvest Moon*, adiciona mecânicas com
 + Adicionar suporte ao Karma (Rosstail)
   + 🔜 Apodrecer baseado na reputação do player que plantou a semente
  
-  
++ Adicionar Condições próprias
